@@ -65,7 +65,11 @@ function NavbarLinks({
     <div className="flex items-center space-x-4">
       <ul className="   text-md font-normal">
         <li>
-          <Link to={`${link}`}>{linkTitle}</Link>
+          {linkTitle === "Sign in" ? (
+            <Link to={`${link}`}>{linkTitle}</Link>
+          ) : (
+            <Link to="">{linkTitle}</Link>
+          )}
         </li>
       </ul>
     </div>
