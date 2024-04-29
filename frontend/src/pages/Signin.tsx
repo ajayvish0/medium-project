@@ -27,6 +27,7 @@ const Signin = () => {
       localStorage.setItem("authorization", token);
       Navigate("/blogs");
     } catch (error) {
+      setLoading(false);
       alert("Invalid Credentials");
       console.error(error);
     }

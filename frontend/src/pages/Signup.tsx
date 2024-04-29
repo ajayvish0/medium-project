@@ -27,6 +27,7 @@ const Signup = () => {
       localStorage.setItem("authorization", token);
       Navigate("/blogs");
     } catch (error) {
+      setLoading(false);
       console.error(error);
     }
   };
