@@ -41,13 +41,15 @@ const Navbar: () => JSX.Element = () => {
             <div className="max-[554px]:hidden flex items-center">
               <NavbarLinks linkTitle="Sign in" link="/signin" />
             </div>
-            <button
-              className={`${
-                stickyClass === "bg-[#FFC100]" ? "bg-black " : "bg-gr"
-              } text-md  text-white font-medium py-3 px-6 rounded-full text-sm`}
-            >
-              Get Started
-            </button>
+            <Link to="/signup">
+              <button
+                className={`${
+                  stickyClass === "bg-[#FFC100]" ? "bg-black " : "bg-gr"
+                } text-md  text-white font-medium py-3 px-6 rounded-full text-sm`}
+              >
+                Get Started
+              </button>
+            </Link>
           </div>
         </div>
       </div>
