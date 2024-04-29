@@ -35,7 +35,7 @@ const Signin = () => {
 
   return (
     <div className="lg:grid lg:grid-cols-2">
-      <div className="h-screen flex justify-center items-center">
+      <div className="h-screen flex justify-center px-[2rem] items-center">
         <div className="text-center w-96">
           <h1 className="text-4xl font-bold">Sign in with email</h1>
           <p className="text-slate-400 pt-2 ">
