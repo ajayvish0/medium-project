@@ -23,15 +23,17 @@ const BlogContent = ({
       <div className="grid lg:grid-cols-4    mb-5  grid-cols-3  gap-2 ">
         <div className=" flex flex-col lg:col-span-3  col-span-2 max-md:pr-4  ">
           <div className=" max-w-full pr-4">
-            <div className="flex space-x-2  items-center  ">
+            <div className="flex space-x-2 md:space-x-3  items-center  ">
               <div className="w-7 max-sm:w-9  ">
                 <Avatar name={authorName} />
               </div>
-              <div className="flex  flex-wrap    max-sm:text-[13px] ">
-                <h1 className="text-[13px] font-semibold ">{authorName}</h1>
+              <div className="flex  flex-wrap  items-center       ">
+                <h1 className="text-[14px] font-semibold lg:text-[15px] ">
+                  {authorName}
+                </h1>
 
-                <p className="  max-sm:text-xs text-[13px] font-semibold  ">
-                  <span className="text-xs max-sm:text-xs  sm:pl-1 text-slate-400">
+                <p className="text-[14px] lg:text-[15px] max-sm:text-xs  font-semibold  ">
+                  <span className="text-xs max-sm:text-xs   min-[455px]:pl-1 text-slate-400">
                     in
                   </span>{" "}
                   {smallTitle}

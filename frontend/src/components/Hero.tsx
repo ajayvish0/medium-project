@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className="w-full py-[3rem]  max-md:px-4 md:px-4  bg-[#FFC100] relative ">
       <div className="  xl:px-[9rem]  max-sm:px-[1rem]  md:max-w-[850px]">
-        <div className=" max-sm:leading-[80px] xl:w-[600px] ">
+        <div className=" max-sm:leading-[80px] xl:w-[600px] font-[Syne] ">
           <h1 className="md:text-[95px] tracking-tight  sm:text-[85px] max-sm:text-[70px] font-medium text-black  py-2  ">
             Stay curious.
           </h1>

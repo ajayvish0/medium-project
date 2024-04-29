@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"); */
-
-/* @layer base {
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+@layer base {
   * {
     font-family: "Syne", "sans-serif";
     font-optical-sizing: auto;
     font-weight: 200, 300, 400, 500, 600, 700, 800;
     font-style: normal;
   }
-} */
+}
