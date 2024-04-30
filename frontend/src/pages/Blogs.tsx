@@ -18,7 +18,7 @@ const Blogs = () => {
       <div className="w-full">
         <Appbar usedfor="navbar" />
       </div>
-      <div className="px-5 pt-12 xl:px-[10rem] lg:pr-4    ">
+      <div className="px-5 pt-7 md:pt-9 xl:px-[10rem] lg:pr-4    ">
         <div className="  max-lg:order-2 ">
           {blogs.map((blog) => (
             <div className="border-b-2 border-slate-200  mb-4">

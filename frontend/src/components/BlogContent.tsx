@@ -27,12 +27,12 @@ const BlogContent = ({
               <div className="w-7 max-sm:w-9  ">
                 <Avatar name={authorName} />
               </div>
-              <div className="flex  flex-wrap  items-center       ">
-                <h1 className="text-[14px] font-semibold lg:text-[15px] ">
+              <div className="flex  flex-wrap  items-center ">
+                <h1 className=" text-[13px] sm:text-[14px] font-medium ">
                   {authorName}
                 </h1>
 
-                <p className="text-[14px] lg:text-[15px] max-sm:text-xs  font-semibold  ">
+                <p className="text-[13px] sm:text-[14px] font-medium   ">
                   <span className="text-xs max-sm:text-xs   min-[455px]:pl-1 text-slate-400">
                     in
                   </span>{" "}
@@ -42,13 +42,13 @@ const BlogContent = ({
             </div>
             <div className="">
               {/* Title*/}
-              <h1 className="text-xl font-extrabold max-sm:pt-4 pt-2 max-sm:text-[19px] max-sm:leading-5   ">
+              <h1 className="text-xl font-bold sm:font-bold sm:text-2xl md:text-3xl  pt-2 ">
                 {title}
               </h1>
               <p
                 className={`${
                   size === "blogs" ? "pt-1 " : ""
-                }text-[0.89rem] font-medium text-slate-500 hidden md:block `}
+                }text-[0.89rem] font-medium text-slate-500 hidden md:block   `}
               >
                 {content.length > 200 ? content.slice(0, 200) : content}
                 {content.length > 200 ? "..." : ""}

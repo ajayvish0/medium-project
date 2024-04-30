@@ -21,7 +21,7 @@ const Hero = () => {
       <div className=" ">
         <img
           src="MM.svg"
-          className=" max-md:hidden xl:h-[450px] h-[430px] absolute  md:right-[-35%] min-[912px]:right-[-25%] xl:right-3 top-[-1%] lg:right-1"
+          className=" max-[800px]:hidden xl:h-[450px] h-[430px] absolute  md:right-[-35%] min-[912px]:right-[-25%] xl:right-3 top-[-1%] lg:right-1"
         />
       </div>
     </div>

@@ -39,14 +39,14 @@ const Publish = () => {
           <div className="relative w-full min-w-[200px] flex gap-x-4 items-center">
             <textarea
               onChange={(e) => setTitle(e.target.value)}
-              className="peer   w-full resize-none border-b border-blue-gray-200 bg-transparent pt-4 pb-1.5 font-sans    text-blue-gray-700 outline outline-0 transition-all text-4xl font-medium  placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50 placeholder:font-normal"
+              className="peer   w-full resize-none border-b border-blue-gray-200 bg-transparent pt-4 pb-1.5 font-sans    text-blue-gray-700 outline outline-0 transition-all text-4xl font-medium  placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50 placeholder:font-normal placeholder:font-[Syne] "
               placeholder="Tell your story..."
             ></textarea>
           </div>
           <div className="relative w-full min-w-[200px] flex gap-x-4 items-center">
             <textarea
               onChange={(e) => setContent(e.target.value)}
-              className="peer h-[10rem]  w-full resize-none border-b border-blue-gray-200 bg-transparent pt-4 pb-1.5 font-sans    text-blue-gray-700 outline outline-0 transition-all text-2xl text-slate-700 font-normal  placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50 placeholder:font-normal"
+              className="peer h-[10rem]  w-full resize-none border-b border-blue-gray-200 bg-transparent pt-4 pb-1.5 font-sans    text-blue-gray-700 outline outline-0 transition-all text-2xl text-slate-700 font-normal  placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50 placeholder:font-normal placeholder:font-[Syne]"
               placeholder="Description"
             ></textarea>
           </div>

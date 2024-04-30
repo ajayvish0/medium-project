@@ -4,7 +4,7 @@ const Blogid = ({ blog }: { blog: BlogPostType }) => {
   return (
     <div className=" sm:w-[800px] ">
       <div>
-        <h1 className="text-[1.9rem] tracking-tighter font-[700] sm:text-4xl xl:text-[2.6rem] xl:max-w-[600px]">
+        <h1 className="text-[1.9rem] font-bold  sm:text-4xl xl:text-[2.6rem] xl:max-w-[600px]">
           {blog.title}
         </h1>
       </div>
